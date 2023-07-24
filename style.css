@@ -1,8 +1,12 @@
 /* Generales */
+html {
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(230, 230, 230);
 }
+
 *{
     box-sizing: border-box;
     font-family: tahoma;
@@ -11,35 +15,38 @@ body{
     max-width: 1400px;
     margin: auto;
 }
-
 /* header */
-header .container{
-    background-color: rgb(240, 240, 240);
-    
+header {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    text-align: center;
+    position: fixed;
 }
-header .logo{
+.logo{
+    font-size: 38px;
+    font-weight: bolder;
     margin: 0;
     padding: 25px 30px;
+    color: rgb(0, 200, 255);
+}
+header.container{
     display: flex;
-    font-weight: bolder;
-    color: rgb(0, 132, 255);
-    font-size: 40px;
+    flex-direction: column;
     align-items: center;
-    flex-direction: column;
-    
 }
-header nav{
-    text-align: center;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
+
+#nav{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
 }
+
 header a{
     color: black;
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 16px;
 }
 header a:hover{
     color: rgb(0, 132, 255);
@@ -59,6 +66,8 @@ header a:hover{
     background-size: cover;
     background-position: center center;
     color: white;
+    
+    
 }
 #hero p{
     font-size: 20px;
@@ -91,6 +100,10 @@ ul{
 
 section:last-child{
     border-bottom: none;
+}
+
+section[id]{
+    scroll-margin-top: 28vh;
 }
 /* footer */
 /* footer{
