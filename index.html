@@ -1,67 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="html" lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aeronautica basica</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+
         <div class="container">
             <p class="logo">Aeronautics</p>
-            <nav>
-                <a href="#">¿what is an aircraft?</a>
-                <a href="#">¿How does a plane fly?</a>
-                <a href="#">aviation in Mexico</a>
+            <nav id="nav">
+                <a href="#aircraft">¿what is an aircraft?</a>
+                <a href="#fly">¿How does a plane fly?</a>
+                <a href="#mexico">aviation in Mexico</a>
             </nav>
         </div>
+
     </header>
+
     <section id="hero">
         <h1>Mexican Aeronautics</h1>
         <p>"Por sobre todas las cosas alas aztecas sobre el cielo de anáhuac"</p>
         <cite>Colegio de pilotos aviadores de mexico</cite>
     </section>
 
-    <section class="body">
-        <!-- <div>
-            <img src="" alt="">
-        </div> -->
-        <h2>What is an aircraft?</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur enim corporis in repudiandae ipsum a cupiditate labore recusandae animi doloremque? Corporis ad incidunt recusandae odit neque cupiditate inventore eveniet laborum!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aperiam nesciunt odit nemo facilis autem cupiditate fugiat ut fugit velit odio dolorem veniam nobis repudiandae atque eius, laudantium necessitatibus molestias.</p>
-    </section>
-
-    <section class="body">
-        <h2>How does a plane fly?</h2>
-        <div id="1">
-        <img src="https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Ad9ed2e7a75490adac149989be1e5f9c4a631c9a7700c917511fe51bf%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1" alt="">
-        <h3>Bernoulli's principle</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil libero veritatis ex labore tempora ipsam rerum natus corporis, provident officiis inventore tenetur vero, error itaque nisi, dolorum suscipit necessitatibus at!</p>
-
-        </div>
-
-        <div id="2">
-            <img src="https://lindengroveschool.org/WP2023/wp-content/uploads/Paper_Airplane.jpg" alt="">
-            <h3>Lift</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil libero veritatis ex labore tempora ipsam rerum natus corporis, provident officiis inventore tenetur vero, error itaque nisi, dolorum suscipit necessitatibus at!</p>
-        </div>
-        <div id="3">
-            <img src="https://image.slidesharecdn.com/jetenginesvimeo-170811080911/85/jet-engines-14-320.jpg?cb=1666815171" alt="">
-            <h3>Newton's third law</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil libero veritatis ex labore tempora ipsam rerum natus corporis, provident officiis inventore tenetur vero, error itaque nisi, dolorum suscipit necessitatibus at!</p>
+    <section class="body" id="aircraft">
+        <div class="container">
+            <!-- <div>
+                <img src="" alt="">
+            </div> -->
+            <h2>What is an aircraft?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur enim corporis in repudiandae ipsum a cupiditate labore recusandae animi doloremque? Corporis ad incidunt recusandae odit neque cupiditate inventore eveniet laborum!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aperiam nesciunt odit nemo facilis autem cupiditate fugiat ut fugit velit odio dolorem veniam nobis repudiandae atque eius, laudantium necessitatibus molestias.</p>
         </div>
     </section>
 
-    <section class="body">
-        <h2>Aviation in Mexico</h2>
-        <img src="https://images.cdn.centreforaviation.com/stories/CTC/MexicoAirport.jpg" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsa iusto ut, obcaecati officiis fugiat adipisci ipsam vel perspiciatis. Fugiat adipisci asperiores iure magni ex mollitia earum dignissimos temporibus officia!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quis corrupti ea libero dolorem. Rem, temporibus. Aut, eum magnam vero nam impedit totam, quod dicta consequuntur, ipsa eos ullam rem.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore similique quasi, quos temporibus perspiciatis cupiditate rem eaque? Accusamus neque ut, reprehenderit quaerat adipisci sunt ad aut voluptas id accusantium animi!</p>
+    <section class="body" id="fly">
+
+        <div class="container">
+            <h2>How does a plane fly?</h2>
+            <div id="1">
+             <img src="https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Ad9ed2e7a75490adac149989be1e5f9c4a631c9a7700c917511fe51bf%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1" alt="">
+                <h3>Bernoulli's principle</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil libero veritatis ex labore tempora ipsam rerum natus corporis, provident officiis inventore tenetur vero, error itaque nisi, dolorum suscipit necessitatibus at!</p>
+        
+            </div>
+        
+            <div id="2">
+                <img src="https://lindengroveschool.org/WP2023/wp-content/uploads/Paper_Airplane.jpg" alt="">
+                <h3>Lift</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil libero veritatis ex labore tempora ipsam rerum natus corporis, provident officiis inventore tenetur vero, error itaque nisi, dolorum suscipit necessitatibus at!</p>
+            </div>
+
+            <div id="3">
+                <img src="https://image.slidesharecdn.com/jetenginesvimeo-170811080911/85/jet-engines-14-320.jpg?cb=1666815171" alt="">
+                <h3>Newton's third law</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil libero veritatis ex labore tempora ipsam rerum natus corporis,    provident officiis inventore tenetur vero, error itaque nisi, dolorum suscipit necessitatibus at!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="body" id="mexico">
+
+        <div class="container">
+            <h2>Aviation in Mexico</h2>
+            <img src="https://images.cdn.centreforaviation.com/stories/CTC/MexicoAirport.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsa iusto ut, obcaecati officiis fugiat adipisci ipsam vel perspiciatis. Fugiat adipisci asperiores iure magni ex mollitia earum dignissimos temporibus officia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quis corrupti ea libero dolorem. Rem, temporibus. Aut, eum magnam vero nam impedit totam, quod dicta consequuntur, ipsa eos ullam rem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore similique quasi, quos temporibus perspiciatis cupiditate rem eaque? Accusamus neque ut, reprehenderit quaerat adipisci sunt ad aut voluptas id accusantium animi!</p>
+        </div>
+
     </section>
 </body>
 <footer>
-    
+    <div class="container">
+        <p>&copy;Aeronautics</p>
+    </div>
 </footer>
 </html>
