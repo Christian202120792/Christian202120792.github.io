@@ -2,7 +2,8 @@
 
 body{
     margin: 0;
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
+    background-color: #eefcff;
 }
 
 *{
@@ -45,7 +46,7 @@ header a{
     font-size: 20px;
 }
 header a:hover{
-    color: rgb(0, 132, 255);
+    color: rgb(1, 76, 146);
 }
 
 /* hero */
@@ -78,24 +79,30 @@ img{
 }
 #hero h1{
     font-size: 50px;
-    background-color: rgba(0,0,0,0.3);
-    border-radius: 20px;
+    /* background-color: rgba(1, 76, 146, 0.3);
+    border-radius: 20px; */
     margin:20px 20px 35px 20px;
+    /* box-shadow: 10px 5px 5px rgba(0,0,0,0.3); */
+    text-shadow: 10px 5px 5px rgba(0,0,0,0.3);
 }
 h2{
     text-align: center;
     font-size: 30px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(1, 76, 146);
     border-radius: 30px;
     margin: 20px; 
     font-weight: bolder;
+    color: rgb(236, 236, 236);
 }
 h3{
     text-align: center;
     font-size: 25px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgb(236, 236, 236);
     border-radius: 30px;
     margin: 20px;
+}
+h2, h3{
+    box-shadow: 6px 5px 5px rgba(0,0,0,0.3);
 }
 ul{
     list-style: none;
@@ -104,19 +111,13 @@ ul{
     font-size: 20px;
     padding: 10px;
 }
-.body{
-    border-bottom: 5px solid rgb(160, 160, 160);
-}
-
-section:last-child{
-    border-bottom: 0px;
-}
 
 section[id]{
     scroll-margin-top: 5vh;
 }
 /* footer */
 footer p{
+    background-color: rgb(245, 245, 245);
     margin: 0;
     padding: 12px;
     color: rgba(0,0,0,0.3);
