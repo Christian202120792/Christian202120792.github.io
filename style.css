@@ -20,7 +20,6 @@ header {
     position: fixed;
     background-color: rgb(245, 245, 245);
     width: 100%;
-    height: 350px;
     text-align: center;
 
     
@@ -33,7 +32,7 @@ header.container{
 .logo{
     width: 80%;
     height: 30%;
-    margin: 15px 0 40px 0;
+    margin: 10px 0;
 }
 
 #nav{
@@ -51,6 +50,7 @@ header a{
 }
 header a:hover{
     color: rgb(1, 76, 146);
+    
 }
 
 /* hero */
@@ -77,13 +77,22 @@ header a:hover{
 }
 
 /* section */
+.body{
+    display: flex;
+    max-width: 650px;
+    justify-content: center;
+    margin: auto;
+}
 #all{
-    padding-top: 350px;
-    scroll-padding-top: 350px;
+    padding-top: 160px;
+    scroll-padding-top: 260px;
 }
 img{
-    width: 100%;
+    display: flex;
+    width: 90%;
     height: 40vh;
+    justify-content: center;
+    margin: auto;
 }
 #hero h1{
     font-size: 50px;
@@ -120,7 +129,7 @@ ul{
     padding: 10px;
 }
 section[id]{
-    scroll-margin-top: 360px;
+    scroll-margin-top: 280px;
 }
 /* footer */
 footer p{
