@@ -30,9 +30,9 @@ header.container{
     align-items: center;
 }
 .logo{
-    width: 80%;
-    height: 30%;
-    margin: 10px 0;
+    width: 90%;
+    height: 40%;
+    margin: 10px auto;
 }
 
 #nav{
@@ -129,7 +129,7 @@ ul{
     padding: 10px;
 }
 section[id]{
-    scroll-margin-top: 280px;
+    scroll-margin-top: 240px;
 }
 /* footer */
 footer p{
